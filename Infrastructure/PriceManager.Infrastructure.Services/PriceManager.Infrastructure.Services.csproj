@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.32" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PriceManager.Infrastructure.Data\PriceManager.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\PriceManager.Infrastructure.Models\PriceManager.Infrastructure.Models.csproj" />
+  </ItemGroup>
+
+</Project>
